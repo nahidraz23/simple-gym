@@ -48,7 +48,7 @@ const Navbar = () => {
                 }
             </div>
             <div className="">
-                <ul className={`flex flex-col ${open ? 'top-0' : '-top-32'} duration-1000 lg:flex-row items-center absolute  lg:static bg-orange-500`}>
+                <ul className={`flex flex-col ${open ? 'left-20' : '-left-32'} duration-1000 lg:flex-row items-center absolute  lg:static bg-orange-500 rounded-xl`}>
                     {
                         routes.map(route => <Link
                             key={route.id}
@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <button className="btn btn-circle"><BsPersonCircle className="text-2xl"></BsPersonCircle></button>
+                <button className="btn btn-circle hover:bg-white"><BsPersonCircle className="text-2xl hover:text-orange-500"></BsPersonCircle></button>
             </div>
         </nav>
     );

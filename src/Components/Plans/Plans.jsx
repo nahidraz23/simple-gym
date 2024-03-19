@@ -76,7 +76,7 @@ const Plans = () => {
                 Best Deals in Town
             </h1>
 
-            <div className="">
+            <div className="hidden lg:contents">
                 <Bcharts></Bcharts>
             </div>
 

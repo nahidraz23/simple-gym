@@ -26,7 +26,7 @@ const Plan = ({ offer }) => {
             </div>
 
 
-            <button className='btn items-center w-full bg-orange-500 text-white'>Subscribe Now</button>
+            <button className='btn items-center w-full bg-orange-500 text-white hover:text-orange-500'>Subscribe Now</button>
         </div>
     );
 };
